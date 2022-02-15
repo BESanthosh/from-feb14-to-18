@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <center><h2><u>STUDENT REGISTRATION FORM</u></h2></center>
+
+<form action="Welcome.html">
+
+   <output>Name : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</output> <input type="text" maxlength="30" minlength="3" required>
+</br></br>
+<output>Fathers Name : &nbsp;</output> <input type="text" maxlength="30" minlength="3" required>
+</br></br>
+<output>Mothers Name :</output> <input type="text" maxlength="30" minlength="3" required>
+</br></br>
+<output>Phone Number :</output> <input type="number"  required pattern="[6-9][6-9][6-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]">
+</br></br>
+<output> Email : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</output><input type="email" name="email" placeholder="please enter your email" required pattern=".+@gmail.com">
+</br></br>
+
+
+<output>Gender : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</output><input type="radio" name="Gender" value="Male" checked> Male
+<input type="radio" name="Gender" value="Female" checked> Female
+</br></br>
+<output> Date Of Birth : &nbsp;&nbsp;</output><input type="date" min="1998-03-03" max="2022-05-02" required>
+</br></br>
+Address : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</output><textarea></textarea>
+</br></br>
+
+ <output>Blood Group : &nbsp;&nbsp;</output>  
+ <select>
+    <option value="Select" selected disabled>Choose</option>
+    <option value="A+">A+</option>
+    <option value="B+">A-</option>
+    <option value="AB+">AB+</option>
+    <option value="AB-">AB-</option>
+    <option value="O+">O+</option>
+    <option value="O-">O-</option>
+  </select>
+</br></br>
+
+<output>Department : &nbsp; &nbsp;</output><input type="radio" name="Department" value="CSE" checked> CSE
+<input type="radio" name="Department" value="EEE" checked> EEE
+<input type="radio" name="Department" value="ECE" checked> ECE
+<input type="radio" name="Department" value="ISE" checked> ISE
+</br></br>
+
+<output>Courses : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</output><input type="radio" name="Course" value="Java" checked> Java
+<input type="radio" name="Course" value="C++" checked> C++
+<input type="radio" name="Course" value="Data Structure" checked> Data Structure
+<input type="radio" name="Course" value="Java Script" checked> Java Script
+<input type="radio" name="Course" value="ReactJS" checked> React JS
+</br></br>
+
+
+<output> Photo : &nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</output><a href="">
+    <button>Choose File</button>
+    </a>
+</br></br>
+</br>
+
+<input type="checkbox" name="tnc" Required checked selected/> I Accept the terms and condition
+</br>
+</br>
+<input type="submit">
+<input type="reset">
+
+
+</form>
+</body
+</html>

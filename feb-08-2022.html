@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <br/>
+    <img src="https://geekster.in/images/logo.svg">
+    <center>
+        <a href=""><font size="4px">Home</font></a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href=""><font size="4px">
+            <select>
+                <option value="Select" selected disabled>Courses</option>
+                <option value="Full stack web Development">Full stack web Development</option>
+                <option value="Adwanced Web Development">Adwanced Web Development</option>
+           </select>
+    </font></a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href=""><font size="4px">Hire Geeksters</font></a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href=""><font size="4px">Blog</font></a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href=""><font size="4px">Contact Us</font></a>&nbsp;
+        <div align="right"><form action="">
+            <input type="submit"></div>
+        </form>
+    </center>
+    <hr color="green">
+    
+    <center><h1><font color="lightgreen" size="6px">Application</font> Form</h1></center>
+    <br/><br/>
+
+<center>
+<form action="">
+    <output>Full Name<sub>*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</sub></output><input type="text" id="name" required pattern="^[a-zA-Z\s]{3,20}$">
+    <output>Email<sub>*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</sub></output><input type="email" id="email" required pattern=".+@gmail.com">
+<br/><br/><br/><br/>
+
+<!--^[a-zA-Z\s]+$ - allows any character from A-Z, a-z and space
+^[a-zA-Z\s]{3,20}$ - allows any character from A-Z, a-z and space, with min and max length of 3 and 20 respectively.
+^([a-zA-Z]+\s)*[a-zA-Z]+$ - allows any character from A-Z, a-z and a single space only between the words.-->
+
+<output>Select Course<sub>*&nbsp;&nbsp;&nbsp;&nbsp;</sub></output><select>
+       <option value="Select" selected disabled>Courses</option>
+                <option value="Full stack web Development">Full stack web Development</option>
+                <option value="Adwanced Web Development">Adwanced Web Development</option>
+                </select>
+
+<br/><br/><br/><br/>
+<output>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phone<sub>*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</sub></output><input type="number" id="phonenumber" required pattern="[789][0-9]{9}">
+
+<output>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Highest Degree<sub>*&nbsp;&nbsp;&nbsp;&nbsp;</sub></output><select>
+<option value="Select" selected disabled>Select Highest Degree</option>
+<option value="BE OR B-Tech CS/IT">BE OR B-Tech CS/IT</option>
+<option value="BE OR B-Tech CS/IT">BE OR B-Tech CS/IT</option>
+<option value="MS OR M-Tech CS/IT">MS OR M-Tech CS/IT</option>
+<option value="MS OR M-tech Others">MS OR M-Tech Others</option>
+<option value="BCA">BCA</option>
+<option value="MCA">MCA</option>
+<option value="Others">Others</option>
+</select>  
+<br/><br/>  <br/><br/>
+
+
+Year of Completion<sub>*&nbsp;&nbsp;&nbsp;&nbsp;</sub></output><select>
+    <option value="Select" selected disabled>Select Year of Completion</option>
+    <option value="2018">2018</option>
+    <option value="2019">2019</option>
+    <option value="2020">2020</option>
+    <option value="2021">2021</option>
+    <option value="2022">2022</option>
+    <option value="2023">2023</option>
+    </select>
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Programming Skills<sub>*&nbsp;&nbsp;&nbsp;&nbsp;</sub></output><select>
+        <option value="Select" selected disabled> Programming Skill Level</option>
+        <option value="No Coding Skills">No Coding Skills</option>
+        <option value="Basic Coding Skills">Basic Coding Skills</option>
+        <option value="Intermediate Coding Skills">Intermediate Coding Skills</option>
+        <option value="Good Coding Skills">Good Coding Skills</option>
+        </select>
+    
+<br/>
+<br/><br/><br/><br/>
+
+<input type="checkbox" required><font size="3px">By signing up, you agree to the Terms and Conditions of Geekster (QuantumBit technologies Pvt. Ltd)*.</font>
+      
+<br/><br/><br/><br/>
+
+<input type="submit" color="blue">
+
+</center>
+
+
+</form>
+
+
+
+
+
+
+
+</body>
+</html>
