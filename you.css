@@ -1,0 +1,34 @@
+body{
+    margin: 0px;
+    
+}
+
+#start {
+    background-color: black;
+    color: whitesmoke;
+    line-height: 200%;
+    margin-bottom: 0%;
+    
+}
+input {
+    border-spacing: 10ch;
+    width: 50%;
+    
+}
+
+img{
+    width: 20%;
+    height: 30px;
+    margin-top: 2%;
+    
+}
+
+
+button {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#end {
+    margin-top: 1%;
+}
