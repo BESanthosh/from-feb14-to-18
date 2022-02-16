@@ -10,25 +10,40 @@ body{
     margin-bottom: 0%;
     
 }
+
 input {
-    border-spacing: 10ch;
     width: 50%;
     
 }
 
-img{
-    width: 20%;
-    height: 30px;
-    margin-top: 2%;
-    
+button:hover {
+    color:yellow;
+    background-color:aqua;
+}
+
+
+img {
+    margin-right: 10%;
+    margin-top: 1%;
+    width: 10%;
+    height: 2%;
 }
 
 
 button {
     margin-top: 1%;
     margin-bottom: 1%;
+    width: 13%;
+    
+}
+
+video {
+    margin-left: 1%;
+    width: 31%;
+    height: 30%;
+
 }
 
 #end {
-    margin-top: 1%;
+    text-align: center;
 }
