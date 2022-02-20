@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+    justify-items: center;
+    background-color: rgb(45, 194, 243);
+    
+}
+
+div{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.underfirst {
+    background-color: yellow;
+}
+
+.underone {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    background-color: yellow;
+   
+}
+
+.seven {
+    background-color: yellow;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+.one {
+    text-align: center;
+    background-color: rgb(30, 186, 238);
+}
+
+.upto {
+    background-color:pink;
+    margin-left: 20%;
+    margin-right: 20%;
+}
