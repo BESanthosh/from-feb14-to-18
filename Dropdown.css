@@ -1,0 +1,48 @@
+body{
+    margin: 0px;
+}
+
+.inside {
+    display:none;
+}
+
+.heading:hover{
+    color:cyan;
+}
+
+.all:hover > .inside {
+    display:initial;
+    color:yellow;
+}
+
+.inside2 {
+    display:none;
+
+}
+
+.heading2:hover {
+    color:brown;
+}
+
+.all2:hover > .inside2 {
+    display:initial;
+    color:blueviolet;
+}
+
+
+
+.inside3 {
+    display:none;
+}
+
+.heading3:hover {
+    color:darkgoldenrod;
+}
+
+
+.all3:hover > .inside3{
+
+    display:initial;
+    color:darkmagenta;
+
+}
