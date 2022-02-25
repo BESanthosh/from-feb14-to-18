@@ -1,0 +1,33 @@
+body{
+    margin:0px;
+}
+
+.all{
+    margin: 0px;
+    background-color: black;
+    color:whitesmoke;
+    line-height: 50px;
+   
+}
+
+.inside{
+    display:none;
+}
+
+.all:hover > .inside{
+    display:initial;
+    color:yellow;
+}
+
+
+
+.inside2{
+    display:none;
+}
+
+.inside:hover > .inside2{
+    display:initial;
+    color:aqua;
+    margin-left: 100px;
+}
+
