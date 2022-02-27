@@ -1,0 +1,54 @@
+body{
+    margin: 0px;
+    display:inline;
+}
+
+.heading{
+    display:inline;
+ 
+    
+}
+
+.one{
+    width:30%;
+    float:left;
+    line-height: 70px;
+    background-color: red;
+}
+
+
+.two{
+    width:60%;
+    line-height: 35px;
+    background-color: yellow;
+    text-align: center;
+    
+}
+
+.four{
+    width:60%;
+    line-height: 35px;
+    background-color:green;
+    text-align: center;
+    
+}
+
+.three{
+    width:100px;
+    background-color: fuchsia;
+}
+
+.five{
+    width:450px;
+    background-color: rgb(250, 117, 69);
+    line-height: 150px;
+    
+}
+
+.six{
+    width:450px;
+    background-color:rgb(14, 177, 231);
+    line-height: 150px;
+   
+    
+}
