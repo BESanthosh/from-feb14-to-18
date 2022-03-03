@@ -1,0 +1,20 @@
+body{
+    margin:5px;
+    background-color: aqua;
+    text-align: center;
+}
+
+img{
+    width:250px;
+    height:200px;
+    
+}
+
+.inside h2{
+    color:brown;
+    
+}
+
+.inside h3{
+    color:crimson;
+}
